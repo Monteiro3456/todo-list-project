@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-center {
+  width: 40%;
+  margin: 200px auto 300px;
+  border: 1px solid red;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.grocery-container {
+  visibility: hidden;
+}
+
+.show-container {
+  visibility: visible;
+}
+
+
+.alert-success {
+  color: #721c24;
+  background: #f8d7da;
+}
+
+.alert-danger {
+   color: #155724;
+   background: #d4edda;
+   
+}
+
+.myd-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
